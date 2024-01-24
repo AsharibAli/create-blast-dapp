@@ -1,6 +1,7 @@
 {
   "name": "create-blast-dapp",
   "version": "0.1.0",
+  "type": "module",
   "bin": {
     "create-blast-dapp": "./bin/index.js"
   },
