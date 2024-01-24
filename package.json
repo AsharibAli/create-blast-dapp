@@ -1,7 +1,6 @@
 {
   "name": "create-blast-dapp",
-  "version": "0.1.0",
-  "type": "module",
+  "version": "0.1.2",
   "bin": {
     "create-blast-dapp": "./bin/index.js"
   },
@@ -22,22 +21,10 @@
     "url": "https://github.com/asharibali/create-blast-dapp/issues"
   },
   "scripts": {
-    "dev": "next dev --turbo",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
   },
   "dependencies": {
     "chalk": "^5.3.0",

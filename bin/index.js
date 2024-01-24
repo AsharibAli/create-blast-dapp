@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-import chalk from "chalk";
-import { execSync } from "child_process";
+const chalk = require("chalk");
+const { execSync } = require("child_process");
 
 const runCommand = (command) => {
   try {
