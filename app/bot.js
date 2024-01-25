@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect } from "react";
 
-const AiBot = () => {
+const BlastChatBot = () => {
   useEffect(() => {
     // Dynamically import the Chatbot script
     const script = document.createElement("script");
@@ -62,4 +62,4 @@ const AiBot = () => {
   }, []); // The empty array ensures this effect runs only once
 };
 
-export default AiBot;
+export default BlastChatBot;

@@ -3,11 +3,10 @@ import React from "react";
 // import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Web3 from "web3";
-import "./page.css";
 import Image from "next/image";
 // JSON containing ABI and Bytecode of compiled smart contracts
-import contractJson from "../backend/artifacts/contracts/Greeter.sol/Greeter.json";
-import AiBot from "./bot";
+import contractJson from "../hardhat/artifacts/contracts/Greeter.sol/Greeter.json";
+import BlastChatBot from "./bot";
 
 function App() {
   const [mmStatus, setMmStatus] = useState("Not connected!");
@@ -192,7 +191,7 @@ function App() {
         </h1>
       </footer>
       <div className="fixed right-0 bottom-0">
-        <AiBot />
+        <BlastChatBot />
       </div>
     </div>
   );
