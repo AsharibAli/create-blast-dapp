@@ -104,7 +104,7 @@ npm run dev
 
 ## ⚖️ License
 
-create-blast-dapp is licensed under the [MIT License](https://github.com/asharibali/create-blast-dapp/blob/main/LICENSE).
+create-blast-dapp is licensed under the [MIT License](https://github.com/AsharibAli/create-blast-dapp/blob/main/LICENSE.md).
 
 <hr>
 Don't forget to star this repositry ⭐️ and Follow on X ~ <a href="https://twitter.com/0xAsharib" target="_blank"><img src="https://img.shields.io/twitter/follow/0xAsharib?style=social" alt="twitter" /></a>
