@@ -8,7 +8,7 @@ describe("Greeter contract", function () {
 
     // Test the initial greeting
     const initialGreeting = await greeter.read();
-    expect(initialGreeting).to.equal("Hello, world!");
+    expect(initialGreeting).to.equal("Hello, world!!!");
   });
 
   it("should update the greeting", async function () {
