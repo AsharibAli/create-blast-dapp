@@ -49,13 +49,10 @@ console.log(
 console.log(chalk.cyan("PRIVATE_KEY="), "<YOUR_KEY>");
 console.log(chalk.cyan("\t npx hardhat compile"));
 console.log(chalk.cyan("\t npx hardhat test"));
-console.log(
-  chalk.cyan("npx hardhat run scripts/deploy.js"),
-  chalk.cyan("scripts/deploy.js")
-);
+console.log(chalk.cyan("\t npx hardhat run scripts/deploy.js"));
 console.log(
   chalk.cyan("\t npx hardhat verify <paste-deployed-contract-address>")
 );
 console.log(chalk.cyan("npm run dev"));
-console.log("\nHappy Building on Blast L2 chain! 🎉");
+console.log("\nHappy Building on Blast L2 chain!");
 console.log(chalk.yellow("\n-----------------------"));
