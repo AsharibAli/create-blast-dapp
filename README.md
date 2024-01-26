@@ -6,7 +6,7 @@
 
 <div align="center">
     <img src="https://img.shields.io/badge/platform-blast-yellow.svg?style=flat-square" alt="Platform">
-    <img src="https://img.shields.io/github/license/asharibali/create-blast-dapp?color=yellow&style=flat-square" alt="License">
+    <img src="https://img.shields.io/github/license/asharibali/create-blast-dapp?color=yellow&style=flat-square " alt="License">
     <img src="https://img.shields.io/npm/dw/create-blast-dapp?style=flat-square&color=yellow" alt="Downloads">
 </div><br>
 
