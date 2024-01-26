@@ -10,7 +10,7 @@
     <img src="https://img.shields.io/npm/dw/create-blast-dapp?style=flat-square&color=yellow" alt="Downloads">
 </div><br>
 
-A full-stack starter template featuring Next & Hardhat with a built-in AI Chatbot, designed for building `Dapps`, as well as developing, deploying, testing, and verifying Solidity smart contracts on the Blast L2 Sepolia testnet network. This starter kit includes pre-installed packages such as `create-next-app`, `hardhat full code`, `tailwindcss`, `web3.js`, and more.
+A full-stack starter template featuring Next & Hardhat with a built-in Blast AI Chatbot, designed for building `Dapps`, as well as developing, deploying, testing, and verifying Solidity smart contracts on the Blast L2 Sepolia testnet network. This starter kit includes pre-installed packages such as `create-next-app`, `hardhat full code`, `tailwindcss`, `web3.js`, and more.
 
 ## 📺 Quickstart
 
