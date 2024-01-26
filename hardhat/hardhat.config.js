@@ -22,7 +22,7 @@ module.exports = {
   // Default network configuration
   defaultNetwork: "blast-sepolia",
 
-  // Etherscan API configuration
+  // Blastscan API configuration
   etherscan: {
     apiKey: {
       blast_sepolia: "blast_sepolia",

@@ -40,9 +40,10 @@ console.log(chalk.green(`\nSuccess! 🎉`));
 console.log("\nFollow the installation guide in README.md");
 console.log("\nPlease begin by typing the following commands:");
 console.log(chalk.cyan("\ncd"), `${repoName}`);
+console.log(chalk.cyan("\ncd hardhat && npm install"));
 console.log(
   chalk.yellow(
-    "⚠️ Please create .env file in the root dir and paste your Metamask private key:"
+    "⚠️ Please create .env file in the hardhat dir and paste your Metamask private key:"
   )
 );
 console.log(chalk.cyan("PRIVATE_KEY="), "<YOUR_KEY>");
@@ -52,6 +53,9 @@ console.log(
   chalk.cyan("npx hardhat run scripts/deploy.js"),
   chalk.cyan("scripts/deploy.js")
 );
-console.log(chalk.cyan("npm start"));
-console.log("\nHappy hacking!");
+console.log(
+  chalk.cyan("\t npx hardhat verify <paste-deployed-contract-address>")
+);
+console.log(chalk.cyan("npm run dev"));
+console.log("\nHappy Building on Blast L2 chain! 🎉");
 console.log(chalk.yellow("\n-----------------------"));
