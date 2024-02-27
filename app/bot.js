@@ -11,8 +11,8 @@ const BlastChatBot = () => {
     script.onload = () => {
       // Initialize the Chatbot once the script is loaded
       Chatbot.init({
-        chatflowid: "719f6e90-4465-4196-af35-374262bb3da1",
-        apiHost: "https://asharib-server.onrender.com",
+        chatflowid: "c23f0756-8009-4f9b-9d85-9395d04a9d8e",
+        apiHost: "https://flowise-r1c3.onrender.com",
         chatflowConfig: {
           // topK: 2
         },

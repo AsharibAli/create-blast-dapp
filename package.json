@@ -1,6 +1,6 @@
 {
   "name": "create-blast-dapp",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "bin": {
     "create-blast-dapp": "./bin/index.mjs"
   },
