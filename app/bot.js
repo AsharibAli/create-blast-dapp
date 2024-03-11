@@ -24,7 +24,7 @@ const BlastChatBot = () => {
             size: "large",
             iconColor: "black",
             customIconSrc:
-              "https://raw.githubusercontent.com/AsharibAli/FlowiseChatEmbed/main/images/blast.png",
+              "https://raw.githubusercontent.com/AsharibAli/create-blast-dapp/main/public/blast-img.png",
           },
           chatWindow: {
             welcomeMessage:
@@ -39,14 +39,14 @@ const BlastChatBot = () => {
               textColor: "#000000",
               showAvatar: true,
               avatarSrc:
-                "https://raw.githubusercontent.com/AsharibAli/FlowiseChatEmbed/main/images/blast.png",
+                "https://raw.githubusercontent.com/AsharibAli/create-blast-dapp/main/public/blast-img.png",
             },
             userMessage: {
               backgroundColor: "#000000",
               textColor: "#ffffff",
               showAvatar: true,
               avatarSrc:
-                "https://raw.githubusercontent.com/AsharibAli/FlowiseChatEmbed/main/images/usericon.png",
+                "https://raw.githubusercontent.com/AsharibAli/create-blast-dapp/main/public/usericon.png",
             },
             textInput: {
               placeholder: "Type your question",
